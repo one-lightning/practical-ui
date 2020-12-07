@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
+body {
+    margin: 0;
+}
+
 .header {
     background-color: #1b1b1b;
     height: 110px;
@@ -32,7 +36,7 @@
     color: white;
 }
 
-.navigation .item.last {
+.navigation .item:last-child {
     margin-right: 100px;
 }
 
@@ -44,8 +48,7 @@
     align-items: center;
     flex-direction: column;
     background-position: center;
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding: 65px 0;
     background-size: cover;
     background-position-y: -150px;
 }
@@ -63,8 +66,7 @@
     color: white;
 }
 
-.left-line,
-.right-line {
+.line {
     font-size: 50px;
     line-height: 9px;
     margin: 15px;
