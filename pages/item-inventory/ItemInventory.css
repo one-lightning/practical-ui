@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Noto+Sans+JP:wght@300&display=swap');
+
+body {
+    background-color: #202020;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #787878;
+    margin: 1px;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.border {
+    display: inline-block;
+    border: 5px solid #484848;
+}
+
+.label {
+    color: #ffffff;
+    font-family: 'Noto Sans JP', sans-serif;
+}
