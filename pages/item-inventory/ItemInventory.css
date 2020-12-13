@@ -26,3 +26,187 @@ body {
     color: #ffffff;
     font-family: 'Noto Sans JP', sans-serif;
 }
+
+.icon {
+    background-image: url("images/101701284-46567800-3a87-11eb-8fa2-97180b59e249.png");
+}
+
+.book {
+    background-position-x: calc(48px*6 *-1);
+    background-position-y: calc(48px*4 *-1);
+}
+
+.bow-green {
+    background-position-x: calc(48px*4 *-1);
+    background-position-y: calc(48px*3 *-1);
+}
+
+.red-fish {
+    background-position-x: calc(48px*5 *-1);
+    background-position-y: calc(48px*6 *-1);
+}
+
+.red-diamond {
+    background-position-x: calc(48px*0 *-1);
+    background-position-y: calc(48px*6 *-1);
+}
+
+.silver {
+    background-position-x: calc(48px*1 *-1);
+    background-position-y: calc(48px*6 *-1);
+}
+
+.gold {
+    background-position-x: calc(48px*2 *-1);
+    background-position-y: calc(48px*6 *-1);
+}
+
+.red-candy {
+    background-position-x: calc(48px*7 *-1);
+    background-position-y: calc(48px*3 *-1);
+}
+
+.blue-fish {
+    background-position-x: calc(48px*6 *-1);
+    background-position-y: calc(48px*6 *-1);
+}
+
+.blue-diamond {
+    background-position-x: calc(48px*4 *-1);
+    background-position-y: calc(48px*6 *-1);
+}
+
+.silver-diamond {
+    background-position-x: calc(48px*7 *-1);
+    background-position-y: calc(48px*6 *-1);
+}
+
+.present {
+    background-position-x: calc(48px*4 *-1);
+    background-position-y: calc(48px*5 *-1);
+}
+
+.green-candy {
+    background-position-x: calc(48px*0 *-1);
+    background-position-y: calc(48px*4 *-1);
+}
+
+.mana-potion {
+    background-position-x: calc(48px*3 *-1);
+    background-position-y: calc(48px*0 *-1);
+}
+
+.gold-bar {
+    background-position-x: calc(48px*7 *-1);
+    background-position-y: calc(48px*0 *-1);
+}
+
+.health-potion {
+    background-position-x: calc(48px*5 *-1);
+    background-position-y: calc(48px*0 *-1);
+}
+
+.silver-key {
+    background-position-x: calc(48px*2 *-1);
+    background-position-y: calc(48px*1 *-1);
+}
+
+.golden-key {
+    background-position-x: calc(48px*4 *-1);
+    background-position-y: calc(48px*1 *-1);
+}
+
+.golden-helmet {
+    background-position-x: calc(48px*5 *-1);
+    background-position-y: calc(48px*3 *-1);
+}
+
+.red-christmas-candy {
+    background-position-x: calc(48px*6 *-1);
+    background-position-y: calc(48px*3 *-1);
+}
+
+.green-christmas-candy {
+    background-position-x: calc(48px*1 *-1);
+    background-position-y: calc(48px*4 *-1);
+}
+
+.red-helmet {
+    background-position-x: calc(48px*5 *-1);
+    background-position-y: calc(48px*5 *-1);
+}
+
+.silver-helmet {
+    background-position-x: calc(48px*6 *-1);
+    background-position-y: calc(48px*5 *-1);
+}
+
+.silver-bar {
+    background-position-x: calc(48px*3 *-1);
+    background-position-y: calc(48px*3 *-1);
+}
+
+.silver-ring {
+    background-position-x: calc(48px*7 *-1);
+    background-position-y: calc(48px*1 *-1);
+}
+
+.white-necklace {
+    background-position-x: calc(48px*6 *-1);
+    background-position-y: calc(48px*0 *-1);
+}
+
+.red-necklace {
+    background-position-x: calc(48px*0 *-1);
+    background-position-y: calc(48px*1 *-1);
+}
+
+.blue-necklace {
+    background-position-x: calc(48px*3 *-1);
+    background-position-y: calc(48px*1 *-1);
+}
+
+.green-arrow {
+    background-position-x: calc(48px*3 *-1);
+    background-position-y: calc(48px*4 *-1);
+}
+
+.green-crossbow {
+    background-position-x: calc(48px*4 *-1);
+    background-position-y: calc(48px*3 *-1);
+}
+
+.yellow-arrow {
+    background-position-x: calc(48px*5 *-1);
+    background-position-y: calc(48px*4 *-1);
+}
+
+.yellow-sword {
+    background-position-x: calc(48px*1 *-1);
+    background-position-y: calc(48px*0 *-1);
+}
+
+.brown-sword {
+    background-position-x: calc(48px*1 *-1);
+    background-position-y: calc(48px*2 *-1);
+}
+
+.silver-sword {
+    background-position-x: calc(48px*2 *-1);
+    background-position-y: calc(48px*2 *-1);
+}
+
+.red-book {
+    background-position-x: calc(48px*4 *-1);
+    background-position-y: calc(48px*2 *-1);
+}
+
+.yellow-book {
+    background-position-x: calc(48px*6 *-1);
+    background-position-y: calc(48px*2 *-1);
+}
+
+.gray-book {
+    background-position-x: calc(48px*4 *-1);
+    background-position-y: calc(48px*4 *-1);
+}
