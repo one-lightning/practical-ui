@@ -14,7 +14,7 @@ body {
 h6 {
     font-family: 'Arvo', serif;
     text-transform: uppercase;
-    color: #505050;
+    color: rgb(85, 85, 85);
     font-weight: bold;
     font-size: 15px;
     margin-bottom: 18px;
@@ -35,12 +35,14 @@ button {
     margin-top: 47px;
     width: 180px;
     height: 50px;
-    background-color: #000000;
+    background-color: #000;
     font-size: 20px;
-    color: rgb(217, 218, 200);
 }
 
 a {
-    color: rgb(217, 218, 200);
     text-decoration: none;
+}
+
+a, button {
+    color: rgb(217, 218, 200);
 }
