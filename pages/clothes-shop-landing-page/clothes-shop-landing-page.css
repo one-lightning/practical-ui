@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-image: url("images/home-1-plain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    font-family: 'Arvo', serif;
+    padding-left: 270px;
+}
+h6 {
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;
+    color: #505050;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 217px;
+    margin-bottom: 18px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
+    margin-top: 1px;
+}
+
+button {
+    margin-top: 47px;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    font-size: 20px;
+    color: rgb(217, 218, 200);
+}
+
+a {
+    color: rgb(217, 218, 200);
+    text-decoration: none;
+}
