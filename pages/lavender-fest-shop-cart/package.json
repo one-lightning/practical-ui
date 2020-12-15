@@ -1,0 +1,29 @@
+{
+  "name": "lavender-fest-shop-cart",
+  "version": "1.0.0",
+  "description": "Shop cart template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/one-lightning/practical-ui.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "lavender",
+    "shop",
+    "cart"
+  ],
+  "author": "Cristina Gaidulean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/one-lightning/practical-ui/issues"
+  },
+  "homepage": "https://github.com/one-lightning/practical-ui#readme",
+  "dependencies": {
+    "sass": "^1.30.0"
+  }
+}
