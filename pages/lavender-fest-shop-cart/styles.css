@@ -1,3 +1,73 @@
-h1 {
-  color: blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.shopping-cart {
+  margin-left: 10px;
+  max-width: 400px;
+}
+
+.shopping-cart-info {
+  margin-bottom: 50px;
+}
+
+.order-title {
+  margin-bottom: 0;
+}
+
+.online-shopping-text {
+  margin-top: 5px;
+  font-size: 20px;
+  color: rgb(110, 112, 112);
+}
+
+.prod-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: rgb(110, 112, 112);
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.count {
+  width: 35px;
+  height: 27px;
+  border-radius: 19px;
+  background-color: #a035ba;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+.prodlist-cart-items {
+  margin-left: 10px;
+}
+
+.prodlist-items {
+  border: 1px solid rgb(186, 187, 187);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.prodlist-item {
+  border-bottom: 1px solid rgb(186, 187, 187);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prodlist-item-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.prodlist-item-info {
+  color: rgb(110, 110, 110);
+  margin: 0;
 }
