@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: rgb(236, 241, 241);
+}
+
+.shopping-cart {
+  margin-left: 10px;
+  max-width: 400px;
+}
+
+.shopping-cart-info {
+  margin-bottom: 50px;
+}
+
+.order-title {
+  margin-bottom: 0;
+}
+
+.online-shopping-text {
+  margin-top: 5px;
+  font-size: 20px;
+  color: rgb(110, 112, 112);
+}
+
+.prod-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: rgb(110, 112, 112);
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.count {
+  width: 35px;
+  height: 27px;
+  border-radius: 19px;
+  background-color: #a035ba;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+.prodlist-items {
+  border: 1px solid rgb(186, 187, 187);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  border-radius: 4px;
+}
+
+.prodlist-item {
+  border-bottom: 1px solid rgb(186, 187, 187);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.prodlist-item:last-child {
+  border-bottom: none;
+}
+
+.prodlist-item-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.prodlist-item-info {
+  color: rgb(110, 110, 110);
+  margin: 0;
+}
+
+.promocode {
+  color: green;
+  background: rgb(238, 247, 247);
+}
+
+.prodlist-item-container .last {
+  border: none;
+}
+
+.promo-code-field-form {
+  margin-top: 15px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 7px;
+  display: flex;
+}
+
+.promo-code-field-form input {
+  flex-grow: 1;
+  border-radius: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid #aaa;
+  border-right: none;
+  font-size: 16px;
+}
+
+.promo-code-field-form button {
+  width: 80px;
+  height: 40px;
+  background-color: #a035ba;
+  border: 1px solid #aaa;
+  border-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.promo-code-field-form input,
+.promo-code-field-form button {
+  padding: 6px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.confirm-container {
+  margin-top: 23px;
+}
+
+.confirm-button {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #a035ba;
+  border: 1px solid #aaa;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
