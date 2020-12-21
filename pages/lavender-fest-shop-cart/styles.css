@@ -61,6 +61,10 @@ body {
   background-color: #ffffff;
 }
 
+.prodlist-item:last-child {
+  border-bottom: none;
+}
+
 .prodlist-item-name {
   font-weight: bold;
   margin: 0;
@@ -113,6 +117,7 @@ body {
 .promo-code-field-form input,
 .promo-code-field-form button {
   padding: 6px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .confirm-container {
@@ -127,4 +132,5 @@ body {
   border: 1px solid #aaa;
   color: #ffffff;
   font-size: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
