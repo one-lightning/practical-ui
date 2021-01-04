@@ -1,0 +1,25 @@
+{
+  "name": "practical-ui",
+  "version": "1.0.0",
+  "description": "insta-fun-promo-page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/one-lightning/practical-ui.git"
+  },
+  "keywords": [
+    "insta",
+    "fun",
+    "promo",
+    "page"
+  ],
+  "author": "Cristina Gaidulean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/one-lightning/practical-ui/issues"
+  },
+  "homepage": "https://github.com/one-lightning/practical-ui#readme"
+}
