@@ -1,0 +1,24 @@
+{
+  "name": "website-for-children-games",
+  "version": "1.0.0",
+  "description": "Website for children games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/one-lightning/practical-ui.git"
+  },
+  "keywords": [
+    "website",
+    "children",
+    "games"
+  ],
+  "author": "Cristina Gaidulean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/one-lightning/practical-ui/issues"
+  },
+  "homepage": "https://github.com/one-lightning/practical-ui#readme"
+}
