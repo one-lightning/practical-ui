@@ -1,0 +1,25 @@
+{
+  "name": "taxi-shmaxi",
+  "version": "1.0.0",
+  "description": "Web interface for taxis service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/one-lightning/practical-ui.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "taxi",
+    "web-interface"
+  ],
+  "author": "Cristina Gaidulean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/one-lightning/practical-ui/issues"
+  },
+  "homepage": "https://github.com/one-lightning/practical-ui#readme"
+}

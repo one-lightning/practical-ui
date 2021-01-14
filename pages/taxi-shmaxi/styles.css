@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+header {
+    background-image: url('images/bg_01.jpg');
+    width: 1067px;
+    height: 488px;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 40.36px;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.yellow-logo {
+    color: #ffc61a;
+    font-size: 40.36px;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+}
+
+.logo-slogan {
+    font-family: 'Abel', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.header-menu-list {
+    font-family: 'Abel', sans-serif;
+    color: #ffffff;
+    list-style-type: none;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+
+}
+
+li:first-child {
+    color: #000000;
+    border: 2px solid #ffdb00;
+    background-color: #ffdb00;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 2px 20px;
+}
+
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+}
+
+.booking-message {
+    font-family: 'Abel', sans-serif;
+    color: #ffdb00;
+    font-size: 35.74px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.booking-phone-number {
+    font-family: 'Abel', sans-serif;
+    color: #ffdb00;
+    font-size: 35.74px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
