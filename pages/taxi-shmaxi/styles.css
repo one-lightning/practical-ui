@@ -1,16 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 body {
     margin: 0;
-    display: flex;
-    justify-content: center;
     background-color: #000000;
 }
 
 header {
     background-image: url('images/bg_01.jpg');
-    width: 1067px;
-    height: 488px;
+    height: 738px;
 }
 
 .header-logo {
@@ -30,7 +27,7 @@ header {
     color: #ffffff;
     font-size: 40.36px;
     text-transform: uppercase;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -39,11 +36,11 @@ header {
     color: #ffc61a;
     font-size: 40.36px;
     text-transform: uppercase;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .logo-slogan {
-    font-family: 'Abel', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #ffffff;
     margin: 0;
     text-align: center;
@@ -52,7 +49,7 @@ header {
 }
 
 .header-menu-list {
-    font-family: 'Abel', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #ffffff;
     list-style-type: none;
     margin: 0;
@@ -83,18 +80,130 @@ li:first-child {
 }
 
 .booking-message {
-    font-family: 'Abel', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #ffdb00;
     font-size: 35.74px;
     margin: 0;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .booking-phone-number {
-    font-family: 'Abel', sans-serif;
-    color: #ffdb00;
-    font-size: 35.74px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 72.26px;
     margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: auto;
+    height: 540px;
+}
+
+main {
+    height: 700px;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.description-section {
+    background-color: #ffc61a;
+    display: flex;
+    justify-content: center;
+    padding-top: 178px;
+    padding-bottom: 103px;
+}
+
+.description-section-content {
+    max-width: 580px;
+}
+
+.description-section-content h3,
+h1,
+p,
+button {
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.description-section-content h3,
+h1,
+button {
     text-transform: uppercase;
 }
 
+.description-section-content h3,
+h1 {
+    font-weight: 900;
+}
+
+.description-section-content h3 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 25px;
+}
+
+.description-section-content h1 {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+.description-section-content p {
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.description-section-content button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 0;
+    font-size: 20px;
+}
+
+.our-tariffs-section {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.our-tariffs-section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-tariffs-section h3 {
+    color: #ffc61a;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    margin:0;
+}
+
+.our-tariffs-section h2 {
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 44px;
+    margin:0;
+}
