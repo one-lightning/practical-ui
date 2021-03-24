@@ -1,0 +1,28 @@
+body {
+    background: #000000;
+}
+
+#subscribe-btn {
+height: 15px;
+width: 15px;
+border: 1px solid #fff;
+border-radius: 3px;
+background: transparent;
+}
+
+#email {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    width: 50%;
+}
+
+#email:focus {
+    color: #fff;
+    outline: none;
+}
+
+#email.strikethrough {
+    color: darkgray;
+    text-decoration: line-through;
+}
