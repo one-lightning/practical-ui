@@ -201,7 +201,7 @@ main {
     cursor: pointer;
     transform: scale(1.05);
     box-shadow: 5px 2px 20px #3f3f3f;
-    
+
 }
 
 
@@ -287,12 +287,13 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 22px;
 }
 
 .advantages-container-column-section h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #6f6f6e;
 }
 
@@ -301,4 +302,66 @@ main {
     font-size: 16px;
     color: #6a6a6a;
     line-height: 1.875;
+}
+
+.advantages-container-column .nurse-img {
+    margin: 0 40px;
+}
+
+.advantages-container-column-section-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.advantages-container-column-section:first-child {
+    margin-bottom: 95px;
+}
+
+.best-feature-wrapper {
+    background-image: url("images/best-feature-background.png");
+    width: 1600px;
+}
+
+.best-feature-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.best-feature-container {
+    margin: 0 79px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.best-feature-container img {
+    width: 91px;
+    height: 80px;
+}
+
+.best-feature-container h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 47px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.hr {
+    width: 85px;
+    height: 7px;
+    background-color: #ffffff;
+}
+
+.best-feature-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 0;
 }
