@@ -22,6 +22,50 @@ header {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-right: 25px;
+    color: #757373;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 7px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 626px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 .header-wrapper {
     width: 1250px;
     display: flex;
@@ -33,7 +77,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 35px 0 23px;
-    border-bottom: 1px solid rgb(214, 212, 212);
+    border-bottom: 1px solid #D6D4D4;
 }
 
 .contacts {
@@ -76,67 +120,42 @@ header {
     cursor: pointer;
 }
 
-ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-right: 25px;
-    color: #757373;
-    font-weight: 900;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    margin-bottom: 7px;
-}
-
 .header-menu .active {
     color: #000000;
-}
-
-a {
-    text-decoration: none;
 }
 
 .social-icons {
     margin-top: 23px;
 }
 
-.facebook {
+.icon-facebook {
     width: 17px;
     height: 21px;
     margin-right: 28px;
 }
 
-.google {
+.icon-google {
     width: 31px;
     height: 25px;
     margin-right: 28px;
 }
 
-.vk {
+.icon-vk {
     width: 25px;
     height: 25px;
     margin-right: 28px;
 }
 
-.youtube {
+.icon-youtube {
     width: 23px;
     height: 25px;
     margin-right: 28px;
 }
 
-.linkedin {
+.icon-linkedin {
     width: 27px;
     height: 25px;
     margin-right: 28px;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .main-banner {
@@ -208,7 +227,6 @@ main {
     cursor: pointer;
     transform: scale(1.05);
     box-shadow: 5px 2px 20px #3f3f3f;
-
 }
 
 .service-box.box-1 {
@@ -478,7 +496,6 @@ main {
     justify-content: flex-start;
     padding: 10px;
     margin-bottom: 15px;
-
 }
 
 .rounded-rectangle--blue {
@@ -651,15 +668,6 @@ main {
     cursor: pointer;
 }
 
-footer {
-    width: 100%;
-    height: 626px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
 .footer-navigation {
     background: #171717;
     width: 1600px;
@@ -707,17 +715,6 @@ footer {
     margin-right: 20px;
 }
 
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-}
-
-/* Firefox */
-input[type=number] {
-    -moz-appearance: textfield;
-}
-
 #name,
 #phone {
     background: transparent;
@@ -735,7 +732,6 @@ input[type=number] {
 #name:focus,
 #phone:focus,
 #message:focus {
-
     color: #ffffff;
     outline: none;
 }
@@ -760,7 +756,6 @@ input[type=number] {
     background: rgba(255, 255, 255, 0.1);
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     cursor: pointer !important;
-
 }
 
 #message::-webkit-scrollbar-thumb {
@@ -802,7 +797,7 @@ input[type=number] {
     margin-bottom: 100px;
 }
 
-.footer-container {
+.footer-copyright-container {
     background: #1a1a1a;
     height: 115px;
     width: 1600px;
@@ -810,7 +805,7 @@ input[type=number] {
     justify-content: center;
 }
 
-.footer-container p {
+.footer-copyright-container p {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color: #8d8d8d;
