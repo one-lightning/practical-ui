@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+}
+
+.app-header-container {
+    display: flex;
+    justify-content: center;
+    background-image: url('images/app-header-bg.png');
+    background-position: center;
+    height: 1001px;
+}
+
+.app-header__logo span {
+    font-family: 'Poppins', sans-serif;
+    color: #fcae61;
+    font-size: 30px;
+}
+
+.app-header__logo {
+    font-family: 'Poppins', sans-serif;
+    color: #242f51;
+    font-size: 30px;
+}
+
+.app-header {
+    display: flex;
+    width: 1250px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 90px;
+}
+
+.app-header__nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.app-header__nav-links a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #242f51;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 35px;
+}
+
+.faq {
+    font-family: 'Poppins', sans-serif;
+    color: #242f51;
+    text-transform: uppercase;
+}
+
+.app-header__nav-cta {
+    width: 170px;
+    height: 57px;
+    background: #2500f9;
+    border: none;
+    border-radius: 29px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.app-header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.app-header__logo {
+    margin: 0;
+}
