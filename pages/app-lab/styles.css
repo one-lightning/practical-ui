@@ -55,6 +55,10 @@ body {
     align-items: center;
 }
 
+.app-header__nav-links a:hover {
+    text-shadow: 1px 1px 1px #647096;
+}
+
 .app-header__nav-links a {
     text-decoration: none;
     text-transform: capitalize;
@@ -164,11 +168,9 @@ body {
 .app-header__description-content {
     margin-top: 170px;
     font-family: 'Poppins', sans-serif;
-    /*max-width: 700px;*/
-    /*242f51*/
 }
 
-.app-header__description-content-editors-choice h6{
+.app-header__description-content-editors-choice h6 {
     font-size: 18px;
     color: #242f51;
     margin: 0;
@@ -180,7 +182,7 @@ body {
     display: inline-block;
     padding: 7px 50px;
     border-radius: 18px;
-    
+
 }
 
 .app-header__description-content-verbiage h1 {
@@ -188,7 +190,146 @@ body {
     font-size: 60px;
     font-weight: 600;
     color: #242f51;
+    margin-bottom: 36px;
 }
 
-/*font-family: 'Poppins', sans-serif;*/
-/*max-width: 515px;*/
+.app-header__description-content-verbiage p {
+    font-family: 'Poppins', sans-serif;
+    color: #47474b;
+    margin-bottom: 40px;
+}
+
+.app-header__description-content-img {
+    width: 41px;
+    height: 37px;
+    background-color: #feaa25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    position: absolute;
+    left: 328px;
+    top: 369px;
+}
+
+.app-header__description-content-cta a {
+    color: #2500f9;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.app-header__description-content-cta a:hover {
+    text-decoration: underline;
+}
+
+::selection {
+    color: #ffc0cb;
+    /*background: #d7ebf7;*/
+}
+
+.app-main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-main__container h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #242f51;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.app-main__container-companies img {
+    margin-right: 70px;
+    margin-bottom: 170px;
+    transition: all 0.3s;
+}
+
+.app-main__container-companies img:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
+    transform: scale(1.23);
+}
+
+.app-main-features-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.app-main-features-images-container {
+    position: relative;
+    width: 646px;
+}
+
+.app-main-features-background {
+    position: absolute;
+    /*left: 170px;*/
+    top: 166px;
+}
+
+.app-main-features-phone {
+    position: absolute;
+    z-index: 2;
+    /*left: 260px;*/
+    top: 0;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(2deg);
+    }
+
+    10% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(-2deg);
+    }
+
+    30% {
+        transform: rotate(0deg);
+    }
+
+    40% {
+        transform: rotate(2deg) translate(10px);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    60% {
+        transform: rotate(-2deg);
+    }
+
+    70% {
+        transform: rotate(-0deg);
+    }
+
+    80% {
+        transform: rotate(2deg);
+    }
+
+    90% {
+        transform: rotate(0deg);
+    }
+}
+
+.app-main-features-phone {
+    animation: none;
+}
+
+.app-main-features-phone:hover {
+    animation: wiggle 0.5s infinite;
+}
+
+.app-main-features-description {
+    width: 646px;
+}
