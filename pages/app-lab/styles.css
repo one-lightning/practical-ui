@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');*/
 
 body {
     margin: 0;
@@ -236,7 +237,7 @@ body {
     align-items: center;
 }
 
-.app-main__container h6 {
+.app-header-title {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #242f51;
@@ -244,9 +245,12 @@ body {
     margin-bottom: 40px;
 }
 
+.app-main__container-companies {
+    margin-bottom: 170px;
+}
+
 .app-main__container-companies img {
     margin-right: 70px;
-    margin-bottom: 170px;
     transition: all 0.3s;
 }
 
@@ -265,6 +269,10 @@ body {
 .app-main-features-images-container {
     position: relative;
     width: 646px;
+    background-image: url('images/awesome-apps-features-background.png');
+    background-repeat: no-repeat;
+    background-position-x: -49px;
+    background-position-y: 156px;
 }
 
 .app-main-features-background {
@@ -274,9 +282,9 @@ body {
 }
 
 .app-main-features-phone {
-    position: absolute;
+    /*position: absolute;*/
     z-index: 2;
-    /*left: 260px;*/
+    left: 85px;
     top: 0;
 }
 
@@ -331,5 +339,57 @@ body {
 }
 
 .app-main-features-description {
-    width: 646px;
+    /*width: 646px;*/
+    width: 448px;
+}
+
+.app-main-features-description h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #242f51;
+    font-size: 36px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.app-main-features-description p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #7e8084;
+    margin-left: 32px;
+    
+}
+
+.app-main-features-description-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.app-main-features-description-list-item {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.list-item__heading {
+    font-family: 'Poppins', sans-serif;
+    color: #242f51;
+    font-size: 36px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    margin-left: 32px;
+}
+
+.list-item__heading--pink {
+    color: #fbb5bc;
+}
+
+.list-item__heading--blue {
+    color: #2563ff;
+}
+.list-item__heading--green {
+    color: #40975f;
+}
+
+.list-item-image-container {
+
 }
