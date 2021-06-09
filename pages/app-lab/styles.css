@@ -264,6 +264,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 145px;
 }
 
 .app-main-features-images-container {
@@ -367,20 +368,20 @@ body {
 
 .app-main-features-description-list-item {
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
 }
 
 .list-item__heading {
     font-family: 'Poppins', sans-serif;
     color: #242f51;
-    font-size: 36px;
-    margin-bottom: 25px;
+    font-size: 20px;
+    margin-bottom: 22px;
     margin-top: 0;
     margin-left: 32px;
 }
 
 .list-item__heading--pink {
-    color: #fbb5bc;
+    color: #f597a1;
 }
 
 .list-item__heading--blue {
@@ -390,6 +391,104 @@ body {
     color: #40975f;
 }
 
-.list-item-image-container {
+.list-item__image-container {
+    min-width: 89px;
+    max-height: 89px;
+    background-color: #f0e6e6;
+    border-radius: 50px;
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
 
+.list-item__image-container--pink {
+    background-color: #ffecef;
+}
+
+.list-item__image-container--blue {  
+    background-color: #e4e4f5;
+}
+
+.list-item__image-container--green {
+    background-color: #e4ffee;
+}
+
+.app-main__mobile-info-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 105px;
+}
+
+.app-main__mobile-info-header {
+    max-width: 475px;
+}
+
+.app-main__mobile-info-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 39px;
+    margin-right: 80px;
+}
+
+.app-main__mobile-info-paragraph {
+    color: #888a8d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    max-width: 350px;
+    border-left: 1px solid #888a8d;
+    padding: 38px 50px;
+    margin: 0;
+}
+
+.app-main__mobile-info-list-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-main_mobile-info-list-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 252px;
+    
+}
+
+.app-main_mobile-info-list-item--red img {
+    width: 65px;
+    height: 58px;
+}
+
+.app-main_mobile-info-list-item--blue img {
+    width: 75px;
+    height: 58px;
+}
+
+.app-main_mobile-info-list-item-green img {
+    width: 82px;
+    height: 61px;
+}
+
+.app-main_mobile-info-list-item h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.app-main_mobile-info-list-item--red h5 {
+    color: #f17c84;
+}
+
+.app-main_mobile-info-list-item--blue h5 {
+    color: #2563ff;
+}
+
+.app-main_mobile-info-list-item--green h5 {
+    color: #40975f;
+}
+
+.app-main_mobile-info-list-item p {
+    font-family: 'Poppins', sans-serif;
+    color: #888a8d;
+    font-size: 16px;
 }
