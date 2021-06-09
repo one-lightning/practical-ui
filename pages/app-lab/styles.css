@@ -228,7 +228,7 @@ body {
 
 ::selection {
     color: #ffc0cb;
-    /*background: #d7ebf7;*/
+    background: #242f51;
 }
 
 .app-main__container {
@@ -282,13 +282,6 @@ body {
     top: 166px;
 }
 
-.app-main-features-phone {
-    /*position: absolute;*/
-    z-index: 2;
-    left: 85px;
-    top: 0;
-}
-
 @keyframes wiggle {
     0% {
         transform: rotate(2deg);
@@ -340,7 +333,6 @@ body {
 }
 
 .app-main-features-description {
-    /*width: 646px;*/
     width: 448px;
 }
 
@@ -357,7 +349,6 @@ body {
     font-size: 16px;
     color: #7e8084;
     margin-left: 32px;
-    
 }
 
 .app-main-features-description-list {
@@ -387,6 +378,7 @@ body {
 .list-item__heading--blue {
     color: #2563ff;
 }
+
 .list-item__heading--green {
     color: #40975f;
 }
@@ -407,7 +399,7 @@ body {
     background-color: #ffecef;
 }
 
-.list-item__image-container--blue {  
+.list-item__image-container--blue {
     background-color: #e4e4f5;
 }
 
@@ -451,7 +443,6 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 252px;
-    
 }
 
 .app-main_mobile-info-list-item--red img {
@@ -464,7 +455,7 @@ body {
     height: 58px;
 }
 
-.app-main_mobile-info-list-item-green img {
+.app-main_mobile-info-list-item--green img {
     width: 82px;
     height: 61px;
 }
