@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');*/
 
 body {
     margin: 0;
@@ -278,7 +277,6 @@ body {
 
 .app-main-features-background {
     position: absolute;
-    /*left: 170px;*/
     top: 166px;
 }
 
@@ -437,6 +435,7 @@ body {
 .app-main__mobile-info-list-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 110px;
 }
 
 .app-main_mobile-info-list-item {
@@ -466,7 +465,7 @@ body {
     text-transform: capitalize;
 }
 
-.app-main_mobile-info-list-item--red h5 {
+.app-main_mobile-info-list-item--pink h5 {
     color: #f17c84;
 }
 
@@ -482,4 +481,97 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #888a8d;
     font-size: 16px;
+}
+
+.app-main_mobile-info-list-item-container {
+    width: 89px;
+    height: 89px;
+    background-color: #f0e6e6;
+    border-radius: 50px;
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.app-main_mobile-info-list-item-container--pink {
+    background-color: #ffecef;
+}
+
+.app-main_mobile-info-list-item-container--blue {
+    background-color: #e8e8ff;
+}
+
+.app-main_mobile-info-list-item-container--green {
+    background-color: #d7fce5;
+}
+
+.app-main__app-info {
+    display: flex;
+    margin-bottom: 135px;
+}
+
+.app-main__app-info-image-container {
+    background-image: url('images/app-main__app-info-background.png');
+    width: 598px;
+    height: 547px;
+    transition: all 0.5s;
+}
+
+.app-main__app-info-image-container:hover {
+    cursor: pointer;
+    transform: translateY(10px);
+    transform: scale(1.01);
+}
+
+.app-main__app-info-text-container {
+    width:410px;
+    height:432px;
+    padding-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-main__app-info-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.app-main__app-info-paragraph {
+    color: #888a8d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 420px;
+}
+
+.app-main__cta {
+    width: 170px;
+    height: 57px;
+    background: #2500f9;
+    border: none;
+    border-radius: 29px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 43px;
+}
+
+.app-main__cta:hover {
+    transform: translateY(10px);
+    cursor: pointer;
+    box-shadow: 1px 5px 10px #928cbb;
+    transition: all 0.3s;
+    transform: scale(1.01);
+}
+
+.app-main__hr {
+    width: 100%;
+    height: 1px; 
+    background-color: #d3d3d3e5; 
+    border: 0;
+    margin-bottom: 140px;
 }
