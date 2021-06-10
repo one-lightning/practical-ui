@@ -331,7 +331,7 @@ body {
 }
 
 .app-main-features-description {
-    width: 448px;
+    width: 500px;
 }
 
 .app-main-features-description h6 {
@@ -353,11 +353,23 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 90px;
+    perspective: 1000px;
+    perspective-origin: 50px;
 }
 
 .app-main-features-description-list-item {
     display: flex;
-    margin-bottom: 45px;
+    /*margin-bottom: 45px;*/
+    transition: all 0.3s;
+    padding: 45px;
+    align-items: center;
+}
+
+.app-main-features-description-list-item:hover {
+    cursor: pointer;
+
+    transform: rotateY(180deg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .list-item__heading {
@@ -383,7 +395,7 @@ body {
 
 .list-item__image-container {
     min-width: 89px;
-    max-height: 89px;
+    min-height: 89px;
     background-color: #f0e6e6;
     border-radius: 50px;
     margin-right: 32px;
