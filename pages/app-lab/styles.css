@@ -538,8 +538,8 @@ body {
 }
 
 .app-main__app-info-text-container {
-    width:410px;
-    height:432px;
+    width: 410px;
+    height: 432px;
     padding-top: 50px;
     margin-left: 100px;
     display: flex;
@@ -582,8 +582,98 @@ body {
 
 .app-main__hr {
     width: 100%;
-    height: 1px; 
-    background-color: #d3d3d3e5; 
+    height: 1px;
+    background-color: #d3d3d3e5;
     border: 0;
     margin-bottom: 140px;
+}
+
+/* .app-main__app-info-advantages {
+    display: flex;
+} */
+
+.app-main__app-info-advantages-container {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.app-main__app-info-advantages-container h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #242f51;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.app-main__app-info-advantages-container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #616368;
+}
+
+.app-main__app-info-advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    justify-content: space-between;
+}
+
+.app-main__app-info-advantages-list-item {
+    max-width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.app-main__app-info-advantages-list-image-container {
+    width: 91px;
+    height: 89px;
+    border-radius: 50px;
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.app-main__app-info-advantages-list-image-container--pink {
+    background-color: #ffecef;
+}
+
+.app-main__app-info-advantages-list-image-container--blue {
+    background-color: #eaf9ff;
+}
+
+.app-main__app-info-advantages-list-image-container--yellow {
+    background-color: #fff6d3;
+}
+
+.app-main__app-info-advantages-list-image-container--green {
+    background-color: #e4ffee;
+}
+
+.app-main__app-info-advantages-list-image-container--violet {
+    background-color: #f4f4ff;
+}
+
+.app-main__app-info-advantages-list-image-container--orange {
+    background-color: #fdeee4;
+}
+
+.app-main__app-info-advantages-list-item h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #242f51;
+}
+
+.app-main__app-info-advantages-list-item p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #616368;
 }
